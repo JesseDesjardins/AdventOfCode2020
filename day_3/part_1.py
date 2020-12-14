@@ -10,8 +10,6 @@ vertical_index = 0
 while not traversed:
     # 3 to the right
     horizontal_index = (horizontal_index + 3) % len(lst[vertical_index])
-    if lst[vertical_index][horizontal_index] == '#':
-        tree_count += 1
     # 1 down
     vertical_index += 1
     if lst[vertical_index][horizontal_index] == '#':
